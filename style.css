@@ -118,6 +118,7 @@ li a:active {
 
 .images-section {
     text-align: center;
+    height: 365px;
 }
 
 .container {
@@ -130,10 +131,6 @@ li a:active {
     width: 50px;
     height: 50px;
     background-color: #0059ff;
-}
-
-.title  {
-    margin-bottom: 32px;
 }
 
 img {
@@ -168,4 +165,16 @@ img {
 .footer {
     text-align: center;
     background-color: #1f2937;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.text {
+    color: #696969;
 }
