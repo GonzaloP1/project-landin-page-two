@@ -158,8 +158,13 @@ img {
 }
 
 .blue-div {
-    background-color: rgb(0, 119, 255);
+    background-color: #3882f6;
     display: flex;
+    height: 120px;
+    width: 840px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .footer {
@@ -198,3 +203,46 @@ img {
     flex-direction: column;
     max-width: 800px;
 }
+
+.inside-blue-div {
+    display: flex;
+    gap: 100px;
+}
+
+.call {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ .sign-up-text {
+    color: #e5e7eb;
+    font-size: 16px;
+ }
+
+ .right-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .right-button button {
+    background-color: #3882f6;
+    font-size: 15px;
+    font-weight: 600;
+    color: #f9faf8;
+    border-radius: 6px;
+    border: 2px solid #f9faf8;
+    width: 100px;
+    height: 30px;
+    transition: 0.2s;
+ }
+
+ .right-button button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+ }
+
+ .right-button button:active {
+    transform: translateY(4px)
+ }
